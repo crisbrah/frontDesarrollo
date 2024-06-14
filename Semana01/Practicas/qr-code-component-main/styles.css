@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"');
+/* 
+ font-family: "Outfit", sans-serif;
+
+ */
+/* VARIABLES o CUSTOM PROPERTIES */
+:root{
+  /* FONTS */
+  --font-primary: "Outfit", sans-serif;
+  --font-size: 15px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* COLORS */
+  --primary-white: hsl(0, 0%, 100%);
+  --primary-light-gray: hsl(212, 45%, 89%)
+  --primary-grayish-blue: hsl(220, 15%, 55%)
+  --primary-dark-blue: hsl(218, 44%, 22%)
+
+
+  --accent-cyan-gradient: hsl(176, 68%, 64%);
+  --accent-blue-gradient: hsl(198, 60%, 50%);
+  --accent-error-gradient: hsl(0, 100%, 63%);
+
+  --neutral-white: hsl(0, 0%, 100%);
+
+  /* Ambito global */
+  /* Definiendo una variable */
+
+}
+
+/* GENERAL */
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: var(--font-size);
+}
+body{
+    background-color: var(--primary-light-gray);
+    color: var(--neutral-white);
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper{
+    /* width: 1440px; */
+    width: min(100%-3rem, 1440px);
+}
+
+.wrapper-720{
+    width: min(100%-3rem, 720px);
+}
+
+.hidden{
+    display: none;
+}
+
+.bloquetotal{
+    background-color: var(--primary-white);
+    border: 1px solid red;
+    width: min(100%-3rem, 440px);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.bloque2{
+    color: blue;
+}
