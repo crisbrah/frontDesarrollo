@@ -253,7 +253,7 @@ const cliente = {
 
 console.log(producto + cliente) // ❌ 💔 [object Object][object Object]
 
-const nuevoObjeto = { ...producto, ...cliente } // Cuidado
+const nuevoObjeto = { ...producto, ...cliente } // Cuidado sobreescribe si tienen el mismo name de propiedad del objeto
 
 console.log(nuevoObjeto)
 
