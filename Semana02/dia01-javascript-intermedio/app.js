@@ -168,6 +168,9 @@ const miObjeto = {
 console.log(miObjetoVacio)
 console.log(miObjeto)
 
+console.log(miObjeto.devolverCursosAprobados)
+console.log(miObjeto.devolverCursosAprobados())
+
 // LEER LOS CAMPOS DE UN OBETO (notación de punto y de corchete)
 
 console.log(miObjeto.nombre) // Victor
@@ -186,8 +189,7 @@ console.log(miObjeto.cursos[1].nombre)
 console.log(miObjeto.cursos[1].nota)
 console.log(miObjeto.cursos[1]['nota'])
 
-console.log(miObjeto.devolverCursosAprobados)
-console.log(miObjeto.devolverCursosAprobados())
+
 
 // ELIMINAR PROPIEDADES DE UN OBJETO
 
