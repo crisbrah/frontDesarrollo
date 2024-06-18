@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el encabezado */
+  .header__menu {
+    text-align: center;
+    background-color: #00bcd4; /* Celeste llamativo */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos para el formulario */
+  .ingress__datos {
+    padding: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    background-color: #00bcd4; /* Celeste llamativo */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el resultado */
+  .resultado_datos {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Estilos para pantallas de 500px o menos */
+  @media (max-width: 500px) {
+    main {
+      padding: 10px;
+    }
+  
+    .header__menu {
+      padding: 10px;
+    }
+  
+    .ingress__datos {
+      padding: 10px;
+    }
+  
+    .resultado_datos {
+      padding: 10px;
+    }
+  }
